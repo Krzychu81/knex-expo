@@ -21,8 +21,7 @@ module.exports = class ClientReactNativeSqliteStorage extends ClientSQLite3 {
   }
 
   acquireRawConnection() {
-    const conn = Promise.cast(SQLite.openDatabase(this.connectionSettings.filename, '1', null, null));
-    return conn;
+    return SQLite.openDatabase(this.connectionSettings.filename, '1', null, null);
   }
 
   destroyRawConnection(db) {
