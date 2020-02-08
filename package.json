@@ -6,6 +6,7 @@
   "dependencies": {
     "assert": "^1.4.1",
     "bluebird": "^3.5.1",
+    "buffer": "^5.4.3",
     "commander": "^2.13.0",
     "debug": "3.1.0",
     "eventemitter3": "^3.0.1",
